@@ -70,6 +70,10 @@ a:after {
 	margin-top: 25px;
 }
 
+.circle{
+    border-radius:50px;
+}
+
 h1 {
 	font-size: 70px;
 }

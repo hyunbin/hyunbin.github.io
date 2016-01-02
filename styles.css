@@ -104,6 +104,22 @@
           animation-delay: 1.6s;
 }
 
+@media screen and (max-width: 480px){
+  .subtitle{
+    width: 90%;
+  }
+
+  .container-bottom{
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 90%;
+  }
+
+  h3.desc-fade{
+    font-size: 1.08em;
+  }
+}
+
 .item{
   margin-bottom: 16px;
 }

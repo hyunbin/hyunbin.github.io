@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Hyunbin Park">
-    <link rel="shortcut icon" href="favicon.gif">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hyunbin Park" />
+    <link rel="shortcut icon" href="favicon.gif" />
 
     <title>Hyunbin Park</title>
 
-    <link href="styles.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+      integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+      integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <div class="container">
-      <img class="circle" src="character.jpg" width="100" height="100" alt="character logo">
-        <h1 class="title" id="div1">I'm Hyunbin.</h1>
-        <h2 class="subtitle" id="div1">Hi there! I write code and music. 
-          I love tinkering with new gadgets and constantly exploring new interests.</h2>
+      <img
+        class="circle"
+        src="character.jpg"
+        width="100"
+        height="100"
+        alt="character logo"
+      />
+      <h1 class="title" id="div1">I'm Hyunbin.</h1>
+      <h2 class="subtitle" id="div1">
+        I make music and code!
+      </h2>
       <div class="container-bottom" id="div1">
-        <div class="item">
-          <i class="fa fa-file-text-o fa-fw"></i> 
-          <h3 class="desc">Resume</h3>
-          <p class="desc-blurb"> I've worked twice at Rithmio as an Android dev intern. 
-            I'll be interning at Facebook next summer. </p>
+        <div class="container-icon-row">
+          <div class="icon-item">
+            <a class="main-link" href="https://www.linkedin.com/in/hyunbin">
+              <i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+          <div class="icon-item">
+            <a class="main-link" href="https://github.com/hyunbin"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </div>
+          <div class="icon-item">
+            <a class="main-link" href="https://soundcloud.com/heycoffeecats">
+              <i class="fab fa-soundcloud fa-2x"></i
+            ></a>
+          </div>
+          <div class="icon-item">
+            <a
+              class="main-link"
+              href="https://open.spotify.com/artist/6B2lknqVfAAJHmYH00bvf0"
+            >
+              <i class="fab fa-spotify fa-2x"></i
+            ></a>
+          </div>
+          <div class="icon-item">
+            <a
+              class="main-link"
+              href="https://itunes.apple.com/us/artist/coffeecats/1409260796"
+            >
+              <i class="fab fa-itunes fa-2x"></i
+            ></a>
+          </div>
         </div>
-        <div class="item">
-          <i class="fa fa-github fa-fw"></i> 
-          <h3 class="desc"> <a class="main-link" href="https://github.com/hyunbin">Github</a> </h3>
-          <h3 class="desc-fade">// hyunbin </h3>
-          <p class="desc-blurb"> Check out 
-            <a class="sub-link" href="https://github.com/hyunbin/BetterMTD">Transit</a>, my Android bus app for Chambana.
-            Or <a class="sub-link" href="https://github.com/hyunbin/MaterialColors">MaterialColors</a>, 
-            a simple Java library to approximate RGB colors to their material counterparts.</p>
-        </div>
-        <div class="item">
-          <i class="fa fa-google fa-fw"></i> 
-          <h3 class="desc"> <a class="main-link" href="https://play.google.com/store/apps/developer?id=Hyunbin+Park">Google Play</a></h3>
-          <h3 class="desc-fade">// Hyunbin Park </h3>
-          <p class="desc-blurb"> I shipped my bus app to the Play Store! 
-            It's used by thousands of people and counting. </p>
-        </div>
-        <div class="item">
-          <i class="fa fa-linkedin-square fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="https://www.linkedin.com/in/hyunbin">LinkedIn</a></h3>
-          <h3 class="desc-fade">// hyunbin </h3>
-          <p class="desc-blurb"> My professional profile. </p>
-        </div>
-        <div class="item">
-          <i class="fa fa-medium fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="https://medium.com/@hyunbin">Medium</a></h3>
-          <h3 class="desc-fade">// @hyunbin </h3>
-          <p class="desc-blurb"> I share my day-to-day thoughts here. </p>
-        </div>
-        <div class="item">
-          <i class="fa fa-soundcloud fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="https://soundcloud.com/heycoffeecats">SoundCloud</a></h3>
-          <h3 class="desc-fade">// @heycoffeecats </h3>
-          <p class="desc-blurb"> I'm one-half of a team called Coffeecats. </p>
-        </div>
-      </div><!-- /.container-bottom -->
-    </div><!-- /.container -->
+      </div>
+      <!-- /.container-bottom -->
+    </div>
+    <!-- /.container -->
   </body>
 </html>
